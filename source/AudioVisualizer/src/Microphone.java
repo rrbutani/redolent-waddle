@@ -157,7 +157,7 @@ public class Microphone {
      * @return Returns AudioFormat to be used later when capturing audio from microphone
      */
     public AudioFormat getAudioFormat() {
-        float sampleRate = 8000.0F;
+        float sampleRate = 44100.0F;
         //8000,11025,16000,22050,44100
         int sampleSizeInBits = 16;
         //8,16
